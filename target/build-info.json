@@ -1,33 +1,24 @@
 {
-  "url" : "http://127.0.0.1:8080/job/testGitMavenRelease/5/",
+  "url" : "http://127.0.0.1:8080/job/testGitMavenRelease/9/",
   "modules" : [ {
     "artifacts" : [ {
-      "name" : "eiffelplugin-upload-2.0.jar",
-      "md5" : "84473a236b91a7baeb123ca7ac9263bc",
-      "sha1" : "e1cac657628c4a2f53a2e6863e722dfcb77053ca",
+      "name" : "eiffelplugin-upload-2.1.jar",
+      "md5" : "e4ac041b8a107a0bc0eba1a910ed320c",
+      "sha1" : "25c737fb9a948c54612132049122068b2f8aaabb",
       "type" : "jar"
     }, {
-      "name" : "eiffelplugin-upload-2.0.pom",
-      "md5" : "4bfaa748ee80125a25218b2571068cbb",
-      "sha1" : "373f3d71763fa6bb5f74828be2156834fbbdb2a9",
+      "name" : "eiffelplugin-upload-2.1.pom",
+      "md5" : "8af65eb5e767876935685f5a723bd04b",
+      "sha1" : "145d46e8d1c370253504875d8c49199729d09518",
       "type" : "pom"
     } ],
-    "id" : "com.ericsson.arm.plugin:eiffelplugin-upload:2.0",
+    "id" : "com.ericsson.arm.plugin:eiffelplugin-upload:2.1",
     "properties" : {
     }
   } ],
-  "vcsRevision" : "5fa85886b2f09005d9a3622bdf9fce7f0e64b73a",
+  "vcsRevision" : "74e20b12a08744129182cecfaa6b68f997dc7d4c",
   "vcsUrl" : "https://github.com/dabing009/mytest.git",
-  "started" : "2015-03-31T11:05:43.055-0400",
-  "agent" : {
-    "version" : "1.580.3",
-    "name" : "Jenkins"
-  },
-  "buildAgent" : {
-    "version" : "3.0.5",
-    "name" : "Maven"
-  },
-  "durationMillis" : 3824,
+  "started" : "2015-06-29T11:22:33.025-0400",
   "licenseControl" : {
     "runChecks" : false,
     "includePublishedArtifacts" : false,
@@ -37,16 +28,16 @@
   },
   "buildRetention" : {
     "deleteBuildArtifacts" : true,
-    "minimumBuildDate" : 1425312343070,
     "buildNumbersNotToBeDiscarded" : [ ],
+    "minimumBuildDate" : 1432999353036,
     "count" : 2
   },
   "statuses" : [ {
     "repository" : "plugins-release-local",
     "status" : "Staged",
+    "timestampDate" : 1435591353025,
     "user" : "admin",
-    "timestampDate" : 1427814343055,
-    "timestamp" : "2015-03-31T11:05:43.055-0400",
+    "timestamp" : "2015-06-29T11:22:33.025-0400",
     "comment" : ""
   } ],
   "governance" : {
@@ -57,8 +48,17 @@
       "autoDiscardStaleComponentRequests" : false
     }
   },
+  "agent" : {
+    "version" : "1.609.1",
+    "name" : "Jenkins"
+  },
+  "buildAgent" : {
+    "version" : "3.0.5",
+    "name" : "Maven"
+  },
+  "durationMillis" : 4456,
   "version" : "1.0.1",
   "name" : "testGitMavenRelease",
   "type" : "MAVEN",
-  "number" : "5"
+  "number" : "9"
 }
