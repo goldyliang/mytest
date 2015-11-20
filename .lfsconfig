@@ -1,0 +1,13 @@
+[lfs]
+   url = "http://localhost/artifactory/api/lfs/proj-arm-lfs-local"
+[user]
+	name = root
+	email = root@test.com
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+
+[remote "origin"]
+  fetch = +refs/heads/*:refs/remotes/origin/*
+  lfsurl = "http://localhost/artifactory/api/lfs/proj-arm-lfs-local"
