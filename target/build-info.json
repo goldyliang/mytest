@@ -1,52 +1,51 @@
 {
-  "url" : "http://127.0.0.1:8080/job/testGitMavenRelease/5/",
+  "url" : "http://127.0.0.1:8080/job/testGitMavenRelease/41/",
   "modules" : [ {
     "artifacts" : [ {
-      "name" : "eiffelplugin-upload-2.0.jar",
-      "md5" : "84473a236b91a7baeb123ca7ac9263bc",
-      "sha1" : "e1cac657628c4a2f53a2e6863e722dfcb77053ca",
+      "name" : "eiffelplugin-upload-2.2.jar",
+      "md5" : "955be01c4a39c7445bbcb5875b6205e8",
+      "sha1" : "23255a41ca5379028ba4d6f76ae5d359d0738ae0",
       "type" : "jar"
     }, {
-      "name" : "eiffelplugin-upload-2.0.pom",
-      "md5" : "4bfaa748ee80125a25218b2571068cbb",
-      "sha1" : "373f3d71763fa6bb5f74828be2156834fbbdb2a9",
+      "name" : "eiffelplugin-upload-2.2.pom",
+      "md5" : "27f896f1e613ffff26212e4927ba8609",
+      "sha1" : "a2515430e2a2d9c362f4b6198d302cf9aa1ece2b",
       "type" : "pom"
     } ],
-    "id" : "com.ericsson.arm.plugin:eiffelplugin-upload:2.0",
+    "id" : "com.ericsson.arm.plugin:eiffelplugin-upload:2.2",
     "properties" : {
     }
   } ],
-  "vcsRevision" : "5fa85886b2f09005d9a3622bdf9fce7f0e64b73a",
+  "vcsRevision" : "c059d44f628bf3b1ac823df78cf41062c5535dd3",
   "vcsUrl" : "https://github.com/dabing009/mytest.git",
-  "started" : "2015-03-31T11:05:43.055-0400",
+  "started" : "2016-04-11T15:48:38.766-0400",
   "agent" : {
-    "version" : "1.580.3",
+    "version" : "1.609.3",
     "name" : "Jenkins"
   },
   "buildAgent" : {
-    "version" : "3.0.5",
+    "version" : "3.3.9",
     "name" : "Maven"
   },
-  "durationMillis" : 3824,
+  "durationMillis" : 17111,
   "licenseControl" : {
     "runChecks" : false,
     "includePublishedArtifacts" : false,
     "autoDiscover" : true,
-    "scopesList" : "",
-    "licenseViolationsRecipientsList" : ""
+    "licenseViolationsRecipientsList" : "",
+    "scopesList" : ""
   },
   "buildRetention" : {
     "deleteBuildArtifacts" : true,
-    "minimumBuildDate" : 1425312343070,
     "buildNumbersNotToBeDiscarded" : [ ],
-    "count" : 2
+    "count" : -1
   },
   "statuses" : [ {
-    "repository" : "plugins-release-local",
+    "repository" : "proj-a-local",
     "status" : "Staged",
-    "user" : "admin",
-    "timestampDate" : 1427814343055,
-    "timestamp" : "2015-03-31T11:05:43.055-0400",
+    "timestampDate" : 1460404118766,
+    "user" : "soapui-adm",
+    "timestamp" : "2016-04-11T15:48:38.766-0400",
     "comment" : ""
   } ],
   "governance" : {
@@ -60,5 +59,5 @@
   "version" : "1.0.1",
   "name" : "testGitMavenRelease",
   "type" : "MAVEN",
-  "number" : "5"
+  "number" : "41"
 }
