@@ -1,33 +1,26 @@
 {
-  "url" : "http://127.0.0.1:8080/job/testGitMavenRelease/5/",
+  "url" : "http://127.0.0.1:8080/job/testGitMavenRelease/45/",
   "modules" : [ {
     "artifacts" : [ {
-      "name" : "eiffelplugin-upload-2.0.jar",
-      "md5" : "84473a236b91a7baeb123ca7ac9263bc",
-      "sha1" : "e1cac657628c4a2f53a2e6863e722dfcb77053ca",
+      "name" : "eiffelplugin-upload-2.4.jar",
+      "md5" : "02728e81956e9b4145c2a5b1ad9be5a9",
+      "sha1" : "0e3aad0ef9726afd714027c2dac76096ef20891a",
       "type" : "jar"
     }, {
-      "name" : "eiffelplugin-upload-2.0.pom",
-      "md5" : "4bfaa748ee80125a25218b2571068cbb",
-      "sha1" : "373f3d71763fa6bb5f74828be2156834fbbdb2a9",
+      "name" : "eiffelplugin-upload-2.4.pom",
+      "md5" : "9812af1a64bbf4f65dce4cf158acdea9",
+      "sha1" : "dc7285f416f04540ad81229b15c898e3a9b04565",
       "type" : "pom"
     } ],
-    "id" : "com.ericsson.arm.plugin:eiffelplugin-upload:2.0",
+    "id" : "com.ericsson.arm.plugin:eiffelplugin-upload:2.4",
     "properties" : {
     }
   } ],
-  "vcsRevision" : "5fa85886b2f09005d9a3622bdf9fce7f0e64b73a",
+  "artifactoryPluginVersion" : "2.4.7",
+  "vcsRevision" : "39fa6bee468b42db141cd57e7eef8fa76e7fb779",
   "vcsUrl" : "https://github.com/dabing009/mytest.git",
-  "started" : "2015-03-31T11:05:43.055-0400",
-  "agent" : {
-    "version" : "1.580.3",
-    "name" : "Jenkins"
-  },
-  "buildAgent" : {
-    "version" : "3.0.5",
-    "name" : "Maven"
-  },
-  "durationMillis" : 3824,
+  "started" : "2016-04-12T05:13:50.037-0400",
+  "durationMillis" : 4529,
   "licenseControl" : {
     "runChecks" : false,
     "includePublishedArtifacts" : false,
@@ -37,17 +30,16 @@
   },
   "buildRetention" : {
     "deleteBuildArtifacts" : true,
-    "minimumBuildDate" : 1425312343070,
     "buildNumbersNotToBeDiscarded" : [ ],
-    "count" : 2
+    "count" : -1
   },
   "statuses" : [ {
-    "repository" : "plugins-release-local",
+    "repository" : "proj-a-local",
     "status" : "Staged",
-    "user" : "admin",
-    "timestampDate" : 1427814343055,
-    "timestamp" : "2015-03-31T11:05:43.055-0400",
-    "comment" : ""
+    "timestampDate" : 1460452430037,
+    "user" : "soapui-adm",
+    "comment" : "",
+    "timestamp" : "2016-04-12T05:13:50.037-0400"
   } ],
   "governance" : {
     "blackDuckProperties" : {
@@ -57,8 +49,16 @@
       "autoDiscardStaleComponentRequests" : false
     }
   },
+  "agent" : {
+    "version" : "1.609.3",
+    "name" : "Jenkins"
+  },
+  "buildAgent" : {
+    "version" : "3.3.9",
+    "name" : "Maven"
+  },
   "version" : "1.0.1",
   "name" : "testGitMavenRelease",
   "type" : "MAVEN",
-  "number" : "5"
+  "number" : "45"
 }
