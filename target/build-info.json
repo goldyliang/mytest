@@ -1,33 +1,34 @@
 {
-  "url" : "http://127.0.0.1:8080/job/testGitMavenRelease/5/",
+  "url" : "http://127.0.0.1:8080/job/testGitMavenRelease/48/",
   "modules" : [ {
     "artifacts" : [ {
-      "name" : "eiffelplugin-upload-2.0.jar",
-      "md5" : "84473a236b91a7baeb123ca7ac9263bc",
-      "sha1" : "e1cac657628c4a2f53a2e6863e722dfcb77053ca",
+      "name" : "eiffelplugin-upload-2.5.jar",
+      "md5" : "e0304301de0b5b743a068f9b3f4fc0d7",
+      "sha1" : "52d2c3ebd2f795dac3256af787397967d77e09c9",
       "type" : "jar"
     }, {
-      "name" : "eiffelplugin-upload-2.0.pom",
-      "md5" : "4bfaa748ee80125a25218b2571068cbb",
-      "sha1" : "373f3d71763fa6bb5f74828be2156834fbbdb2a9",
+      "name" : "eiffelplugin-upload-2.5.pom",
+      "md5" : "27b443b1c8beb13c1b26a04f7e1a0c08",
+      "sha1" : "2bb163a54cae6a5c1aa40958e2ed7d37a2808d0c",
       "type" : "pom"
     } ],
-    "id" : "com.ericsson.arm.plugin:eiffelplugin-upload:2.0",
+    "id" : "com.ericsson.arm.plugin:eiffelplugin-upload:2.5",
     "properties" : {
     }
   } ],
-  "vcsRevision" : "5fa85886b2f09005d9a3622bdf9fce7f0e64b73a",
+  "artifactoryPluginVersion" : "2.4.7",
+  "vcsRevision" : "a7e7007c8e8ca66d095a92414bc9311cdf5dd722",
   "vcsUrl" : "https://github.com/dabing009/mytest.git",
-  "started" : "2015-03-31T11:05:43.055-0400",
   "agent" : {
-    "version" : "1.580.3",
+    "version" : "1.609.3",
     "name" : "Jenkins"
   },
   "buildAgent" : {
-    "version" : "3.0.5",
+    "version" : "3.3.9",
     "name" : "Maven"
   },
-  "durationMillis" : 3824,
+  "started" : "2016-04-12T15:31:51.136-0400",
+  "durationMillis" : 4185,
   "licenseControl" : {
     "runChecks" : false,
     "includePublishedArtifacts" : false,
@@ -37,16 +38,15 @@
   },
   "buildRetention" : {
     "deleteBuildArtifacts" : true,
-    "minimumBuildDate" : 1425312343070,
     "buildNumbersNotToBeDiscarded" : [ ],
-    "count" : 2
+    "count" : -1
   },
   "statuses" : [ {
-    "repository" : "plugins-release-local",
+    "repository" : "proj-a-local",
     "status" : "Staged",
-    "user" : "admin",
-    "timestampDate" : 1427814343055,
-    "timestamp" : "2015-03-31T11:05:43.055-0400",
+    "timestampDate" : 1460489511136,
+    "user" : "soapui-adm",
+    "timestamp" : "2016-04-12T15:31:51.136-0400",
     "comment" : ""
   } ],
   "governance" : {
@@ -60,5 +60,5 @@
   "version" : "1.0.1",
   "name" : "testGitMavenRelease",
   "type" : "MAVEN",
-  "number" : "5"
+  "number" : "48"
 }
