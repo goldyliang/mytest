@@ -1,33 +1,41 @@
 {
-  "url" : "http://127.0.0.1:8080/job/testGitMavenRelease/5/",
+  "url" : "http://127.0.0.1:8080/job/testGitMavenRelease/39/",
   "modules" : [ {
     "artifacts" : [ {
-      "name" : "eiffelplugin-upload-2.0.jar",
-      "md5" : "84473a236b91a7baeb123ca7ac9263bc",
-      "sha1" : "e1cac657628c4a2f53a2e6863e722dfcb77053ca",
+      "name" : "eiffelplugin-upload-2.6.jar",
+      "md5" : "1348691115163d17cba9e4cc3856c6e4",
+      "sha1" : "cf694605486d5e1fb134753df3ba321a691a07c5",
       "type" : "jar"
     }, {
-      "name" : "eiffelplugin-upload-2.0.pom",
-      "md5" : "4bfaa748ee80125a25218b2571068cbb",
-      "sha1" : "373f3d71763fa6bb5f74828be2156834fbbdb2a9",
+      "name" : "eiffelplugin-upload-2.6.pom",
+      "md5" : "b7515ca3b354da04dffe455b559903f1",
+      "sha1" : "8502bc170f160fcce40dccb1a76358d767d3dbc8",
       "type" : "pom"
     } ],
-    "id" : "com.ericsson.arm.plugin:eiffelplugin-upload:2.0",
+    "id" : "com.ericsson.arm.plugin:eiffelplugin-upload:2.6",
     "properties" : {
     }
   } ],
-  "vcsRevision" : "5fa85886b2f09005d9a3622bdf9fce7f0e64b73a",
+  "vcsRevision" : "7bd0285c7af23ebca9a7484b49b888535e4dae63",
   "vcsUrl" : "https://github.com/dabing009/mytest.git",
-  "started" : "2015-03-31T11:05:43.055-0400",
+  "started" : "2016-05-17T17:48:03.474-0400",
+  "governance" : {
+    "blackDuckProperties" : {
+      "runChecks" : false,
+      "includePublishedArtifacts" : false,
+      "autoCreateMissingComponentRequests" : false,
+      "autoDiscardStaleComponentRequests" : false
+    }
+  },
   "agent" : {
-    "version" : "1.580.3",
+    "version" : "1.609.1",
     "name" : "Jenkins"
   },
   "buildAgent" : {
     "version" : "3.0.5",
     "name" : "Maven"
   },
-  "durationMillis" : 3824,
+  "durationMillis" : 3971,
   "licenseControl" : {
     "runChecks" : false,
     "includePublishedArtifacts" : false,
@@ -37,28 +45,20 @@
   },
   "buildRetention" : {
     "deleteBuildArtifacts" : true,
-    "minimumBuildDate" : 1425312343070,
+    "minimumBuildDate" : 1460929683484,
     "buildNumbersNotToBeDiscarded" : [ ],
     "count" : 2
   },
   "statuses" : [ {
-    "repository" : "plugins-release-local",
+    "repository" : "ext-release-local",
     "status" : "Staged",
+    "timestampDate" : 1463521683474,
     "user" : "admin",
-    "timestampDate" : 1427814343055,
-    "timestamp" : "2015-03-31T11:05:43.055-0400",
-    "comment" : ""
+    "comment" : "",
+    "timestamp" : "2016-05-17T17:48:03.474-0400"
   } ],
-  "governance" : {
-    "blackDuckProperties" : {
-      "runChecks" : false,
-      "includePublishedArtifacts" : false,
-      "autoCreateMissingComponentRequests" : false,
-      "autoDiscardStaleComponentRequests" : false
-    }
-  },
   "version" : "1.0.1",
   "name" : "testGitMavenRelease",
   "type" : "MAVEN",
-  "number" : "5"
+  "number" : "39"
 }
