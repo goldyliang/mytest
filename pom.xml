@@ -4,5 +4,5 @@
 
     <groupId>com.ericsson.arm.plugin</groupId>
     <artifactId>eiffelplugin-upload</artifactId>
-    <version>3.6</version>
+    <version>3.7-SNAPSHOT</version>
 </project>
