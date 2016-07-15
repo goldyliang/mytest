@@ -1,33 +1,34 @@
 {
-  "url" : "http://127.0.0.1:8080/job/testGitMavenRelease/5/",
+  "url" : "http://127.0.0.1:8080/job/testGitMavenRelease/79/",
   "modules" : [ {
     "artifacts" : [ {
-      "name" : "eiffelplugin-upload-2.0.jar",
-      "md5" : "84473a236b91a7baeb123ca7ac9263bc",
-      "sha1" : "e1cac657628c4a2f53a2e6863e722dfcb77053ca",
+      "name" : "eiffelplugin-upload-3.1.jar",
+      "md5" : "d5a83959e1c46a5297f6be97204397b7",
+      "sha1" : "0c984fac37c23ce49c7f36ac280fdd7726948170",
       "type" : "jar"
     }, {
-      "name" : "eiffelplugin-upload-2.0.pom",
-      "md5" : "4bfaa748ee80125a25218b2571068cbb",
-      "sha1" : "373f3d71763fa6bb5f74828be2156834fbbdb2a9",
+      "name" : "eiffelplugin-upload-3.1.pom",
+      "md5" : "311a7d733e63aa255405eebd24c2bd11",
+      "sha1" : "6892e9f3a591977d0a8f9fd680c85ef97a1b8468",
       "type" : "pom"
     } ],
-    "id" : "com.ericsson.arm.plugin:eiffelplugin-upload:2.0",
+    "id" : "com.ericsson.arm.plugin:eiffelplugin-upload:3.1",
     "properties" : {
     }
   } ],
-  "vcsRevision" : "5fa85886b2f09005d9a3622bdf9fce7f0e64b73a",
-  "vcsUrl" : "https://github.com/dabing009/mytest.git",
-  "started" : "2015-03-31T11:05:43.055-0400",
+  "artifactoryPluginVersion" : "2.5.1",
+  "vcsRevision" : "d4de6af46c917b15c650b57f386de82be36e2425",
+  "vcsUrl" : "https://github.com/goldyliang/mytest.git",
   "agent" : {
-    "version" : "1.580.3",
+    "version" : "1.609.3",
     "name" : "Jenkins"
   },
   "buildAgent" : {
-    "version" : "3.0.5",
+    "version" : "3.3.9",
     "name" : "Maven"
   },
-  "durationMillis" : 3824,
+  "started" : "2016-07-15T13:28:52.580-0400",
+  "durationMillis" : 18953,
   "licenseControl" : {
     "runChecks" : false,
     "includePublishedArtifacts" : false,
@@ -37,16 +38,15 @@
   },
   "buildRetention" : {
     "deleteBuildArtifacts" : true,
-    "minimumBuildDate" : 1425312343070,
     "buildNumbersNotToBeDiscarded" : [ ],
-    "count" : 2
+    "count" : -1
   },
   "statuses" : [ {
-    "repository" : "plugins-release-local",
+    "repository" : "tmp",
     "status" : "Staged",
+    "timestampDate" : 1468603732580,
     "user" : "admin",
-    "timestampDate" : 1427814343055,
-    "timestamp" : "2015-03-31T11:05:43.055-0400",
+    "timestamp" : "2016-07-15T13:28:52.580-0400",
     "comment" : ""
   } ],
   "governance" : {
@@ -60,5 +60,5 @@
   "version" : "1.0.1",
   "name" : "testGitMavenRelease",
   "type" : "MAVEN",
-  "number" : "5"
+  "number" : "79"
 }
