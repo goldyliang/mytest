@@ -1,24 +1,30 @@
 {
-  "url" : "http://127.0.0.1:8080/job/testGitMavenRelease/87/",
+  "url" : "http://127.0.0.1:8080/job/testGitMavenRelease/89/",
   "modules" : [ {
     "artifacts" : [ {
-      "name" : "eiffelplugin-upload-3.5.jar",
-      "md5" : "0db4c2febbe30f312a1a45e0d0883948",
-      "sha1" : "19d85048ef1a184110d256d1b1afcb3d383d68c0",
+      "name" : "eiffelplugin-upload-3.6.jar",
+      "md5" : "046356ddb559e277c86148a424b96faf",
+      "sha1" : "72518f764f0df105afe567a8eb5f9fa554b2cba0",
       "type" : "jar"
     }, {
-      "name" : "eiffelplugin-upload-3.5.pom",
-      "md5" : "0ebee282d05199e1ce3133943e8fda58",
-      "sha1" : "455d96446bc01301a6d13a1009709df51bce04e0",
+      "name" : "eiffelplugin-upload-3.6.pom",
+      "md5" : "d5b42db5de22c84ad8a774a6dc7af54c",
+      "sha1" : "358c82db7bcdcba967062d5dc94ad7b18544b62a",
       "type" : "pom"
     } ],
-    "id" : "com.ericsson.arm.plugin:eiffelplugin-upload:3.5",
+    "id" : "com.ericsson.arm.plugin:eiffelplugin-upload:3.6",
     "properties" : {
     }
   } ],
   "artifactoryPluginVersion" : "2.5.1",
-  "vcsRevision" : "16447b69e4093986ef5c7e5309573d0f55ef1e47",
+  "vcsRevision" : "88538b7f578160e7bd6887ddf2e84c49f524f426",
   "vcsUrl" : "https://github.com/goldyliang/mytest.git",
+  "buildAgent" : {
+    "version" : "3.3.9",
+    "name" : "Maven"
+  },
+  "started" : "2016-07-15T14:01:21.095-0400",
+  "durationMillis" : 4428,
   "licenseControl" : {
     "runChecks" : false,
     "includePublishedArtifacts" : false,
@@ -34,11 +40,15 @@
   "statuses" : [ {
     "repository" : "ext-release-local",
     "status" : "Staged",
-    "timestampDate" : 1468605493211,
+    "timestampDate" : 1468605681095,
     "user" : "admin",
-    "comment" : "",
-    "timestamp" : "2016-07-15T13:58:13.211-0400"
+    "timestamp" : "2016-07-15T14:01:21.095-0400",
+    "comment" : ""
   } ],
+  "agent" : {
+    "version" : "1.609.3",
+    "name" : "Jenkins"
+  },
   "governance" : {
     "blackDuckProperties" : {
       "runChecks" : false,
@@ -47,18 +57,8 @@
       "autoDiscardStaleComponentRequests" : false
     }
   },
-  "agent" : {
-    "version" : "1.609.3",
-    "name" : "Jenkins"
-  },
-  "buildAgent" : {
-    "version" : "3.3.9",
-    "name" : "Maven"
-  },
-  "started" : "2016-07-15T13:58:13.211-0400",
-  "durationMillis" : 4418,
   "version" : "1.0.1",
   "name" : "testGitMavenRelease",
   "type" : "MAVEN",
-  "number" : "87"
+  "number" : "89"
 }
