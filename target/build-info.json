@@ -1,52 +1,43 @@
 {
-  "url" : "http://127.0.0.1:8080/job/testGitMavenRelease/5/",
+  "url" : "http://127.0.0.1:8080/job/testGitMavenRelease/74/",
   "modules" : [ {
     "artifacts" : [ {
-      "name" : "eiffelplugin-upload-2.0.jar",
-      "md5" : "84473a236b91a7baeb123ca7ac9263bc",
-      "sha1" : "e1cac657628c4a2f53a2e6863e722dfcb77053ca",
+      "name" : "eiffelplugin-upload-2.9.jar",
+      "md5" : "6bb73d7705c9e325b16e546cf5ce0961",
+      "sha1" : "79933e7f03b05425de9a96414c8b7dcaa6fe352e",
       "type" : "jar"
     }, {
-      "name" : "eiffelplugin-upload-2.0.pom",
-      "md5" : "4bfaa748ee80125a25218b2571068cbb",
-      "sha1" : "373f3d71763fa6bb5f74828be2156834fbbdb2a9",
+      "name" : "eiffelplugin-upload-2.9.pom",
+      "md5" : "96931ae172cabc3d27a07613cecbf242",
+      "sha1" : "e0a3459b54eb5eee90e49a1ece741266ba0f0673",
       "type" : "pom"
     } ],
-    "id" : "com.ericsson.arm.plugin:eiffelplugin-upload:2.0",
+    "id" : "com.ericsson.arm.plugin:eiffelplugin-upload:2.9",
     "properties" : {
     }
   } ],
-  "vcsRevision" : "5fa85886b2f09005d9a3622bdf9fce7f0e64b73a",
-  "vcsUrl" : "https://github.com/dabing009/mytest.git",
-  "started" : "2015-03-31T11:05:43.055-0400",
-  "agent" : {
-    "version" : "1.580.3",
-    "name" : "Jenkins"
-  },
-  "buildAgent" : {
-    "version" : "3.0.5",
-    "name" : "Maven"
-  },
-  "durationMillis" : 3824,
+  "artifactoryPluginVersion" : "2.4.7",
+  "vcsRevision" : "7e444bf8d1f61c757cec660f15b0863e7c459e0a",
+  "vcsUrl" : "https://github.com/goldyliang/mytest.git",
+  "durationMillis" : 4702,
   "licenseControl" : {
     "runChecks" : false,
     "includePublishedArtifacts" : false,
     "autoDiscover" : true,
-    "scopesList" : "",
-    "licenseViolationsRecipientsList" : ""
+    "licenseViolationsRecipientsList" : "",
+    "scopesList" : ""
   },
   "buildRetention" : {
     "deleteBuildArtifacts" : true,
-    "minimumBuildDate" : 1425312343070,
     "buildNumbersNotToBeDiscarded" : [ ],
-    "count" : 2
+    "count" : -1
   },
   "statuses" : [ {
-    "repository" : "plugins-release-local",
+    "repository" : "ext-release-local",
     "status" : "Staged",
+    "timestampDate" : 1468601765785,
     "user" : "admin",
-    "timestampDate" : 1427814343055,
-    "timestamp" : "2015-03-31T11:05:43.055-0400",
+    "timestamp" : "2016-07-15T12:56:05.785-0400",
     "comment" : ""
   } ],
   "governance" : {
@@ -57,8 +48,17 @@
       "autoDiscardStaleComponentRequests" : false
     }
   },
+  "agent" : {
+    "version" : "1.609.3",
+    "name" : "Jenkins"
+  },
+  "buildAgent" : {
+    "version" : "3.3.9",
+    "name" : "Maven"
+  },
+  "started" : "2016-07-15T12:56:05.785-0400",
   "version" : "1.0.1",
   "name" : "testGitMavenRelease",
   "type" : "MAVEN",
-  "number" : "5"
+  "number" : "74"
 }
