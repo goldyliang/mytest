@@ -1,23 +1,23 @@
 {
-  "url" : "http://127.0.0.1:8080/job/testGitMavenRelease/117/",
+  "url" : "http://127.0.0.1:8080/job/testGitMavenRelease/119/",
   "modules" : [ {
     "artifacts" : [ {
-      "name" : "eiffelplugin-upload-3.19.jar",
-      "md5" : "aeb77c7c01526513d18569a4befb2080",
-      "sha1" : "77d0944159261a8e0b5019bf607fbc7babb65aea",
+      "name" : "eiffelplugin-upload-3.20.jar",
+      "md5" : "c56d466bd5554a6b9130215fe05a7b80",
+      "sha1" : "666c7da88a0d7547946345f0a086a3c8888b85bc",
       "type" : "jar"
     }, {
-      "name" : "eiffelplugin-upload-3.19.pom",
-      "md5" : "72f1d0d7b2143da39c65a228f00d8aac",
-      "sha1" : "741b1f1c5d11eee62d3098e84f0fe901171900c5",
+      "name" : "eiffelplugin-upload-3.20.pom",
+      "md5" : "faeae400720638f748af5d84fdbf7932",
+      "sha1" : "b30031b8145c6b542b84ad5e7c394698d6a76c98",
       "type" : "pom"
     } ],
-    "id" : "com.ericsson.arm.plugin:eiffelplugin-upload:3.19",
+    "id" : "com.ericsson.arm.plugin:eiffelplugin-upload:3.20",
     "properties" : {
     }
   } ],
   "artifactoryPluginVersion" : "2.6.0",
-  "vcsRevision" : "2efc7e4195cc345c589c4568dfb3ae020a195b29",
+  "vcsRevision" : "bb7434d0b3a36557ea6c22228375f2f162b004a7",
   "vcsUrl" : "https://github.com/goldyliang/mytest.git",
   "agent" : {
     "version" : "1.609.3",
@@ -27,8 +27,8 @@
     "version" : "3.3.9",
     "name" : "Maven"
   },
-  "started" : "2016-08-19T16:54:23.944-0400",
-  "durationMillis" : 4369,
+  "started" : "2016-08-19T16:56:20.813-0400",
+  "durationMillis" : 13219,
   "licenseControl" : {
     "runChecks" : false,
     "includePublishedArtifacts" : false,
@@ -44,10 +44,10 @@
   "statuses" : [ {
     "repository" : "ext-release-local",
     "status" : "Staged",
-    "timestampDate" : 1471640063944,
+    "timestampDate" : 1471640180813,
     "user" : "admin",
-    "timestamp" : "2016-08-19T16:54:23.944-0400",
-    "comment" : ""
+    "comment" : "",
+    "timestamp" : "2016-08-19T16:56:20.813-0400"
   } ],
   "governance" : {
     "blackDuckProperties" : {
@@ -60,5 +60,5 @@
   "version" : "1.0.1",
   "name" : "testGitMavenRelease",
   "type" : "MAVEN",
-  "number" : "117"
+  "number" : "119"
 }
