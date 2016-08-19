@@ -1,10 +1,10 @@
 {
-  "url" : "http://127.0.0.1:8080/job/testGitMavenRelease/103/",
+  "url" : "http://127.0.0.1:8080/job/testGitMavenRelease/104/",
   "modules" : [ {
     "artifacts" : [ {
       "name" : "eiffelplugin-upload-3.13.jar",
-      "md5" : "3700d3faabe102cf35c42faa9853e66c",
-      "sha1" : "fbb1a74c486eb9336fbdf8b4e1768ec4bb0ebbce",
+      "md5" : "dbf06215c82ef9c29c5e076b469d393c",
+      "sha1" : "8b5597667423a981733d88b240c08a7ea40bf96a",
       "type" : "jar"
     }, {
       "name" : "eiffelplugin-upload-3.13.pom",
@@ -17,18 +17,9 @@
     }
   } ],
   "artifactoryPluginVersion" : "2.6.0",
-  "vcsRevision" : "dce1fb24d7d03a6ceb3a39c848d4b2a851e81bfb",
+  "vcsRevision" : "8953e9f0b1540c63cf1453cae100b5f1160b0dd7",
   "vcsUrl" : "https://github.com/goldyliang/mytest.git",
-  "agent" : {
-    "version" : "1.609.3",
-    "name" : "Jenkins"
-  },
-  "buildAgent" : {
-    "version" : "3.3.9",
-    "name" : "Maven"
-  },
-  "started" : "2016-08-19T15:34:00.260-0400",
-  "durationMillis" : 5002,
+  "durationMillis" : 5665,
   "licenseControl" : {
     "runChecks" : false,
     "includePublishedArtifacts" : false,
@@ -44,9 +35,9 @@
   "statuses" : [ {
     "repository" : "ext-release-local",
     "status" : "Staged",
-    "timestampDate" : 1471635240260,
+    "timestampDate" : 1471636493095,
     "user" : "admin",
-    "timestamp" : "2016-08-19T15:34:00.260-0400",
+    "timestamp" : "2016-08-19T15:54:53.095-0400",
     "comment" : ""
   } ],
   "governance" : {
@@ -57,8 +48,17 @@
       "autoDiscardStaleComponentRequests" : false
     }
   },
+  "agent" : {
+    "version" : "1.609.3",
+    "name" : "Jenkins"
+  },
+  "buildAgent" : {
+    "version" : "3.3.9",
+    "name" : "Maven"
+  },
+  "started" : "2016-08-19T15:54:53.095-0400",
   "version" : "1.0.1",
   "name" : "testGitMavenRelease",
   "type" : "MAVEN",
-  "number" : "103"
+  "number" : "104"
 }
