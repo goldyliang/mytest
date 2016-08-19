@@ -1,54 +1,24 @@
 {
-  "url" : "http://127.0.0.1:8080/job/testGitMavenRelease/120/",
+  "url" : "http://127.0.0.1:8080/job/testGitMavenRelease/123/",
   "modules" : [ {
     "artifacts" : [ {
-      "name" : "eiffelplugin-upload-3.21.jar",
-      "md5" : "b5c4c8e6c03b1125b9eb88941f08e4d3",
-      "sha1" : "2ac2c88a7317902112513922f591e4bf72bb3c3d",
+      "name" : "eiffelplugin-upload-3.22.jar",
+      "md5" : "359516d37aa55d339542702cb3a54e30",
+      "sha1" : "c591230509f589eb1cf141fe91f4de603de56526",
       "type" : "jar"
     }, {
-      "name" : "eiffelplugin-upload-3.21.pom",
-      "md5" : "d529f5d428ca9e9977131a0ffda3a521",
-      "sha1" : "74616effb6395f87b6c3aecd997b34ffbb11d15e",
+      "name" : "eiffelplugin-upload-3.22.pom",
+      "md5" : "01ad28e5a2f58da11e0f29ba7d631142",
+      "sha1" : "f9b726ec0e37b03913faff7cbbaad060d2fbf8a6",
       "type" : "pom"
     } ],
-    "id" : "com.ericsson.arm.plugin:eiffelplugin-upload:3.21",
+    "id" : "com.ericsson.arm.plugin:eiffelplugin-upload:3.22",
     "properties" : {
     }
   } ],
   "artifactoryPluginVersion" : "2.6.0",
-  "vcsRevision" : "ff4ff6397dab5bd5fdb4165ecb1bcda082a3a5ce",
+  "vcsRevision" : "8980a52103f097a7bae8e8ca6892067f9eedacc6",
   "vcsUrl" : "https://github.com/goldyliang/mytest.git",
-  "agent" : {
-    "version" : "1.609.3",
-    "name" : "Jenkins"
-  },
-  "buildAgent" : {
-    "version" : "3.3.9",
-    "name" : "Maven"
-  },
-  "started" : "2016-08-19T16:57:35.011-0400",
-  "durationMillis" : 4274,
-  "licenseControl" : {
-    "runChecks" : false,
-    "includePublishedArtifacts" : false,
-    "autoDiscover" : true,
-    "scopesList" : "",
-    "licenseViolationsRecipientsList" : ""
-  },
-  "buildRetention" : {
-    "deleteBuildArtifacts" : true,
-    "buildNumbersNotToBeDiscarded" : [ ],
-    "count" : -1
-  },
-  "statuses" : [ {
-    "repository" : "ext-release-local",
-    "status" : "Staged",
-    "timestampDate" : 1471640255011,
-    "user" : "admin",
-    "timestamp" : "2016-08-19T16:57:35.011-0400",
-    "comment" : ""
-  } ],
   "governance" : {
     "blackDuckProperties" : {
       "runChecks" : false,
@@ -57,8 +27,38 @@
       "autoDiscardStaleComponentRequests" : false
     }
   },
+  "started" : "2016-08-19T17:06:03.044-0400",
+  "agent" : {
+    "version" : "1.609.3",
+    "name" : "Jenkins"
+  },
+  "buildAgent" : {
+    "version" : "3.3.9",
+    "name" : "Maven"
+  },
+  "durationMillis" : 12293,
+  "licenseControl" : {
+    "runChecks" : false,
+    "includePublishedArtifacts" : false,
+    "autoDiscover" : true,
+    "scopesList" : "",
+    "licenseViolationsRecipientsList" : ""
+  },
+  "buildRetention" : {
+    "count" : -1,
+    "deleteBuildArtifacts" : true,
+    "buildNumbersNotToBeDiscarded" : [ ]
+  },
+  "statuses" : [ {
+    "repository" : "ext-release-local",
+    "status" : "Staged",
+    "timestampDate" : 1471640763044,
+    "user" : "admin",
+    "timestamp" : "2016-08-19T17:06:03.044-0400",
+    "comment" : ""
+  } ],
   "version" : "1.0.1",
   "name" : "testGitMavenRelease",
   "type" : "MAVEN",
-  "number" : "120"
+  "number" : "123"
 }
