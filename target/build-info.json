@@ -1,23 +1,23 @@
 {
-  "url" : "http://127.0.0.1:8080/job/testGitMavenRelease/113/",
+  "url" : "http://127.0.0.1:8080/job/testGitMavenRelease/115/",
   "modules" : [ {
     "artifacts" : [ {
-      "name" : "eiffelplugin-upload-3.17.jar",
-      "md5" : "307b00277cf7c25a89755a537ea8f954",
-      "sha1" : "662fcd40103ec25f007b767afcc2095c44cb7596",
+      "name" : "eiffelplugin-upload-3.18.jar",
+      "md5" : "6f720eb71a848bfa6cea6658f83720fe",
+      "sha1" : "71e387ea153c3a17213ca29af1b67fcfb8db0e25",
       "type" : "jar"
     }, {
-      "name" : "eiffelplugin-upload-3.17.pom",
-      "md5" : "65a27a92bf2202cdd86ed1461dbf37e7",
-      "sha1" : "16d892659a6d5ca4c19027d7a3d3f8bec0cca42e",
+      "name" : "eiffelplugin-upload-3.18.pom",
+      "md5" : "0da939c30307b2ca4136efc86f19610c",
+      "sha1" : "199946e04423f9fa71490fb475bb939dbdea0250",
       "type" : "pom"
     } ],
-    "id" : "com.ericsson.arm.plugin:eiffelplugin-upload:3.17",
+    "id" : "com.ericsson.arm.plugin:eiffelplugin-upload:3.18",
     "properties" : {
     }
   } ],
   "artifactoryPluginVersion" : "2.6.0",
-  "vcsRevision" : "77807b83c56e81554aabfebb4eec2a5d4dd74e19",
+  "vcsRevision" : "d0244710f95d3d853c4687668a8a2095e5271621",
   "vcsUrl" : "https://github.com/goldyliang/mytest.git",
   "agent" : {
     "version" : "1.609.3",
@@ -27,8 +27,8 @@
     "version" : "3.3.9",
     "name" : "Maven"
   },
-  "started" : "2016-08-19T16:14:07.334-0400",
-  "durationMillis" : 12991,
+  "started" : "2016-08-19T16:52:37.374-0400",
+  "durationMillis" : 4867,
   "licenseControl" : {
     "runChecks" : false,
     "includePublishedArtifacts" : false,
@@ -44,21 +44,21 @@
   "statuses" : [ {
     "repository" : "ext-release-local",
     "status" : "Staged",
-    "timestampDate" : 1471637647334,
+    "timestampDate" : 1471639957374,
     "user" : "admin",
-    "timestamp" : "2016-08-19T16:14:07.334-0400",
-    "comment" : ""
+    "comment" : "",
+    "timestamp" : "2016-08-19T16:52:37.374-0400"
   } ],
   "governance" : {
     "blackDuckProperties" : {
       "runChecks" : false,
       "includePublishedArtifacts" : false,
-      "autoCreateMissingComponentRequests" : false,
-      "autoDiscardStaleComponentRequests" : false
+      "autoDiscardStaleComponentRequests" : false,
+      "autoCreateMissingComponentRequests" : false
     }
   },
   "version" : "1.0.1",
   "name" : "testGitMavenRelease",
   "type" : "MAVEN",
-  "number" : "113"
+  "number" : "115"
 }
